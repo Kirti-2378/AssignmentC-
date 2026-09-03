@@ -29,11 +29,11 @@ class BankAccount
 
 class Program
 {
-    static void Main1()
+    public static void Main1(string[] args)
     {
         BankAccount account = new BankAccount();
 
-        account.AccountNumber = "123456780";
+        account.AccountNumber = "1234567890";
         account.Balance = 1000;
 
         account.Deposit(500);
